@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>推荐好友注册</title>
+	<meta name="viewport" content="user-scalable=no, maximum-scale=1.0, width=device-width">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<script src="js/setRootFz.js"></script>
+	<link rel="stylesheet" href="css/signUp.css">
+</head>
+<body>
+	
+	<div class="signUp-tit"><span class="signUp-tit-txt">注册信息</span></div>
+
+	<div class="signUp-ban">
+		<img src="image/banner-2.png" height="352" width="686" alt="">
+	</div>
+
+	<div class="signUp-group">
+		<div class="signUp-item">
+			<div class="signUp-field">手机号</div>
+			<div class="signUp-input">
+				<input type="tel" class="signUp-input-box signUp-input-phone" placeholder="请输入手机注册号">
+			</div>
+		</div>
+		<div class="signUp-item">
+			<div class="signUp-field">验证码</div>
+			<div class="signUp-input">
+				<input type="tel" class="signUp-input-box signUp-input-verify" placeholder="请输入验证码">
+				<div class="signUp-verify">获取验证码</div>
+			</div>
+		</div>
+		<div class="signUp-item">
+			<div class="signUp-field">密&nbsp;&nbsp;&nbsp;码</div>
+			<div class="signUp-input">
+				<input type="password" class="signUp-input-box signUp-pass" placeholder="请输入登陆密码">
+				<div class="signUp-eye"></div>
+			</div>
+		</div>
+		<div class="signUp-item">
+			<div class="signUp-field">省&nbsp;&nbsp;&nbsp;份</div>
+			<span class="signUp-area">
+				<span id="citySel" data="" class="signUp-input-span signUp-input-area">请选择省份</span>
+				<u class="angle"></u>
+			</span>
+			<div class="signUp-field ml10">城&nbsp;&nbsp;&nbsp;市</div>
+			<span class="signUp-area">
+				<span id="plotSel" data="" class="signUp-input-span signUp-input-area">请选择城市</span>
+				<u class="angle"></u>
+			</span>
+		</div>
+	</div>
+	
+	<div class="sigunUp-success-btn-outer">
+		<a href="http://www.pgyer.com/MDUI" class="signUp-success-btn signUp-success-btn-left"></a>
+		<a href="http://www.pgyer.com/NQ7q" class="signUp-success-btn signUp-success-btn-right"></a>
+	</div>
+
+	<div class="signUp-submit-placeholder"></div>
+
+	<div class="signUp-submit">注册</div>
+
+	<div id="cityList" class="shadow">
+		<div class="area-list">
+			<p class="fix"><span class="pop-close"></span><strong>选择省份</strong></p>
+			<ul class="city-list"></ul>
+		</div>
+	</div>
+	<div id="plotList" class="shadow">
+		<div class="area-list">
+			<p class="fix"><span class="pop-close"></span><strong>选择城市</strong></p>
+			<ul class="plot-list"></ul>
+		</div>
+	</div>
+
+	<script src="js/md5.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/signUp.js"></script>
+	<script src="js/city.js"></script>
+	<script src="js/community.js"></script>
+
+<!-- 	<script src="//localhost:1337/livereload.js"></script>
+ -->
+</body>
+</html>

@@ -1,0 +1,6 @@
+@mixin css3($name, $value) {
+  -webkit-#{$name}: #{$value};
+  -moz-#{$name}: #{$value};
+  -o-#{$name}: #{$value};
+  #{$name}: #{$value};
+}

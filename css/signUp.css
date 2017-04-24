@@ -1,0 +1,399 @@
+/*v2.1.2*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent; }
+
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block; }
+
+ul, ol {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  font-weight: normal;
+  vertical-align: middle; }
+
+td {
+  font-weight: normal;
+  vertical-align: middle; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word; }
+
+table {
+  font-size: inherit;
+  font: 100%; }
+
+small {
+  font-size: 85%; }
+
+strong {
+  font-weight: bold; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif; }
+
+.clickable, label, button {
+  cursor: pointer; }
+
+button, input, select, textarea {
+  padding: 0;
+  margin: 0;
+  border: none;
+  -webkit-appearance: none; }
+
+button:focus, input:focus, select:focus, textarea:focus, a:focus {
+  outline: none; }
+
+button:disabled, input:disabled, select:disabled, textarea:disabled {
+  background-color: #fff; }
+
+/*add*/
+ins {
+  background-color: #fcd700;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #fcd700;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+a, label {
+  -webkit-tap-highlight-color: transparent; }
+
+.clearfix, .signUp-item, .sigunUp-success-btns, .sigunUp-success-btn-outer {
+  zoom: 1; }
+  .clearfix:after, .signUp-item:after, .sigunUp-success-btns:after, .sigunUp-success-btn-outer:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both; }
+
+.sigunUp-success-icon img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+body, select, input, textarea, button {
+  color: #202020;
+  font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica,sans-serif,arial; }
+
+body {
+  background-color: #efeff4;
+  overflow-x: hidden; }
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #cccccc; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #cccccc; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #cccccc; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #cccccc; }
+
+a, a:visited {
+  text-decoration: none;
+  color: #202020; }
+
+body {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+.ml10 {
+  margin-left: 0.525rem; }
+
+.signUp-tit {
+  position: relative;
+  width: 14.6rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  font-size: 0.6rem;
+  text-align: center; }
+  .signUp-tit:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 100%;
+    height: 1px;
+    background-color: #aaaaab; }
+  .signUp-tit .signUp-tit-txt {
+    position: relative;
+    background-color: #efeff4;
+    padding: 0px 0.25rem; }
+
+.signUp-ban {
+  width: 14.6rem;
+  height: 7.5rem;
+  margin: 0.85rem auto 0;
+  overflow: hidden; }
+  .signUp-ban img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.signUp-group {
+  width: 14.6rem;
+  margin: 0.85rem auto 0; }
+
+.signUp-item {
+  height: 1.9rem;
+  margin-bottom: 0.65rem; }
+
+.signUp-field {
+  width: 2.5rem;
+  float: left;
+  line-height: 1.9rem;
+  font-size: 0.7rem;
+  text-align: left; }
+
+.signUp-input {
+  width: 11.875rem;
+  float: right;
+  position: relative; }
+
+.signUp-input-box, .signUp-input-span {
+  display: block;
+  width: 100%;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  font-size: 0.7rem;
+  background-color: #fff;
+  outline: #dadadb;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0.25rem; }
+
+.signUp-input-verify {
+  float: left;
+  width: 6.4rem; }
+
+.signUp-verify {
+  width: 5.1rem;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  background-color: #25498e;
+  color: #fff;
+  font-size: 0.65rem;
+  text-align: center;
+  float: right; }
+  .signUp-verify.hasSend {
+    background-color: #ABABAB; }
+
+.signUp-area {
+  position: relative;
+  float: left;
+  margin-left: 0.25rem; }
+
+.angle {
+  position: absolute;
+  top: 0.875rem;
+  right: 0.25rem;
+  width: 0;
+  height: 0;
+  border-width: 0.25rem;
+  border-style: solid;
+  border-color: #b8b8b8 transparent transparent transparent; }
+
+.signUp-input-area {
+  width: 4.25rem;
+  font-size: 0.7rem;
+  color: #cccccc; }
+
+.signUp-eye {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url(../image/eye.jpg) 0 bottom no-repeat;
+  -webkit-background-size: 1.6rem 3.2rem;
+  -moz-background-size: 1.6rem 3.2rem;
+  -o-background-size: 1.6rem 3.2rem;
+  background-size: 1.6rem 3.2rem;
+  position: absolute;
+  right: 0.25rem;
+  top: 0.15rem; }
+  .signUp-eye.active {
+    background-position: 0 top; }
+
+.signUp-submit {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  background-color: #25498e;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff; }
+
+.signUp-submit-placeholder {
+  height: 3rem; }
+
+.sigunUp-success-icon {
+  padding-top: 1.5rem; }
+
+.sigunUp-success-btns {
+  width: 13.1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 1.25rem;
+  margin-left: -6.55rem; }
+
+.sigunUp-success-btn-outer {
+  margin-top: 1.25rem; }
+  .sigunUp-success-btn-outer .signUp-success-btn-left {
+    margin-left: 1.25rem; }
+  .sigunUp-success-btn-outer .signUp-success-btn-right {
+    margin-right: 1.25rem; }
+
+.signUp-success-btn {
+  width: 5.75rem;
+  height: 1.75rem;
+  background: url(../image/Android.png) 0 0 no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%; }
+
+.signUp-success-btn-left {
+  float: left; }
+
+.signUp-success-btn-right {
+  float: right;
+  background-image: url(../image/ios.png); }
+
+.shadow {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow-y: hidden;
+  transition: all 1s;
+  -webkit-transition: all 1s; }
+
+@-webkit-keyframes mymove {
+  0% {
+    left: 100%; }
+  100% {
+    left: 20%; } }
+.area-list {
+  position: absolute;
+  left: 20%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  animation: mymove 1s;
+  -webkit-animation: mymove 1s; }
+  .area-list p {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1; }
+    .area-list p strong {
+      font-weight: normal; }
+    .area-list p span {
+      position: absolute;
+      top: 0.825rem;
+      left: 0.5rem;
+      width: 1rem;
+      height: 1rem;
+      background-image: url(../image/goback.png);
+      background-size: cover; }
+  .area-list ul {
+    position: absolute;
+    top: 2.5rem;
+    bottom: 0;
+    width: 100%;
+    overflow-x: hidden; }
+    .area-list ul li {
+      width: 100%;
+      height: 2rem;
+      padding-left: 0.75rem;
+      line-height: 2rem;
+      font-size: 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #e1e1e1; }
+      .area-list ul li a {
+        display: block; }
+
+/*# sourceMappingURL=signUp.css.map */
